@@ -169,9 +169,6 @@ PRODUCT_PACKAGES += \
     camera.msm8953 \
     libmm-qcamera
 
-PRODUCT_PACKAGES += \
-    GrapheneCamera
-
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/cgroups_28.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
