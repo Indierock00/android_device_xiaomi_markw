@@ -14,31 +14,30 @@
 // limitations under the License.
 //
 
-cc_library_headers {
-    name: "libbfqio_headers",
-    vendor_available: true,
-    export_include_dirs: ["include"],
-}
+//cc_library_headers {
+//    name: "libbfqio_headers",
+//    vendor_available: true,
+//    export_include_dirs: ["include"],
+//}
 
-cc_library {
-    name: "libbfqio",
-    vendor_available: true,
-    srcs: [
-        "bfqio.c",
-    ],
+//cc_library {
+//    name: "libbfqio",
+//    vendor_available: true,
+//    srcs: [
+//        "bfqio.c",
+//    ],
 
-    shared_libs: [
-        "libcutils",
-        "liblog",
-    ],
-    header_libs: [
-        "libbfqio_headers",
-    ],
-    export_header_lib_headers: ["libbfqio_headers"],
-
-    cflags: [
-        "-Werror",
-        "-Wall",
-        "-Wextra",
-    ],
-}
+//    shared_libs: [
+ //       "libcutils",
+//        "liblog",
+ //   ]    header_libs: [
+ //       "libbfqio_headers",
+ //   ],
+//    export_header_lib_headers: ["libbfqio_headers"],
+//
+ //   cflags: [
+ //       "-Werror",
+ //      "-Wall",
+ //       "-Wextra",
+ //   ],
+//}
