@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_markw.mk
+    $(LOCAL_DIR)/voltage_markw.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_markw-user \
-    lineage_markw-userdebug \
-    lineage_markw-eng
+    voltage_markw-user \
+    voltage_markw-userdebug \
+    voltage_markw-eng
