@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/markw/device.mk)
 $(call inherit-product, vendor/superior/config/common.mk)
 
 #SuperiorOS Flags
-SUPERIOR_GAPPS := minimal
+#SUPERIOR_GAPPS := minimal
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := markw
