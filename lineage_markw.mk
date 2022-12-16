@@ -33,6 +33,28 @@ PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 BOARD_VENDOR := Xiaomi
 
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+SUSHI_BOOTANIMATION := 1080
+
+# Maintainer flag
+RICE_MAINTAINER := IndieRock00
+
+# Device flag
+RICE_DEVICE := markw
+
+# Disable/Enable blur support, default is false
+TARGET_ENABLE_BLUR := true
+
+# Quick tap feature
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+#Official
+RICE_OFFICIAL := false
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
